@@ -1,0 +1,42 @@
+body {
+	font-family: 'Poiret One', cursive;
+}
+
+.conteudo-main {
+	margin: 100px 0 0 0;
+	display: block;
+	width: 350px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.perfil__foto {
+	border: solid 2px #a6aa8f;
+	border-radius: 50%;
+	width: 150px;
+	right: 150px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.nav-bar ul {
+	list-style-type: none;
+	display: inline-flex;
+}
+
+.nav-bar li {
+	padding: 0 35px 0 0;
+}
+
+.nav-bar a {
+	text-shadow: .8px .8px #ecf5a3;
+	text-decoration: none;
+	color: #808080;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.social-media li i {
+	font-size: 36px;
+}
