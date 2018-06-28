@@ -1,42 +1,52 @@
 body {
-	font-family: 'Poiret One', cursive;
+	background-color: #f5f5f5;
 }
-
-.conteudo-main {
-	margin: 100px 0 0 0;
+header {
 	display: block;
-	width: 350px;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
+	background-color: #00BCD4;
 }
 
-.perfil__foto {
-	border: solid 2px #a6aa8f;
-	border-radius: 50%;
-	width: 150px;
-	right: 150px;
-	margin-left: auto;
-	margin-right: auto;
+header .top-bar {
+	padding: 15px 30px 120px 0;
 }
 
-.nav-bar ul {
-	list-style-type: none;
-	display: inline-flex;
-}
-
-.nav-bar li {
-	padding: 0 35px 0 0;
-}
-
-.nav-bar a {
-	text-shadow: .8px .8px #ecf5a3;
-	text-decoration: none;
-	color: #808080;
-	font-size: 18px;
+header .introducao {
+	position: relative;
+	padding: 100px 0;
+	background-color: #00a5bb;
+	color: #ffffff;
 	font-weight: bold;
 }
 
-.social-media li i {
-	font-size: 36px;
+.introducao .intro-descricao {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.introducao .foto-perfil {
+	width: 160px;
+	height: 160px;
+	border-radius: 50%;
+	position: absolute;
+	margin-left: -80px;
+	top: -80px;
+	left: 50%;
+	border: 3px solid #ffffff;
+}
+
+.navbar-nav .nav-item {
+	padding: 0 15px;
+	font-weight: bold;
+	text-shadow: 0.6px 0.6px #ffffff;
+}
+
+main section {
+	margin: 50px 0;
+	background-color: #ffffff;
+	padding: 45px !important;
+	box-shadow: 2px 2px 2px 2px #d8d8d8;
+}
+
+section h2 {
+	margin: 20px 0;
 }
