@@ -50,3 +50,12 @@ main section {
 section h2 {
 	margin: 20px 0;
 }
+
+.estudos .card, .projetos .card {
+	width: 30%;
+	margin: 5px;
+}
+
+.experiencias .card {
+	margin: 10px 10px 10px 60px;
+}
